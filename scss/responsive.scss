@@ -1,0 +1,107 @@
+// media query apply start 
+// =====================1200px=====================
+@media (max-width: 1200px) {
+    #heroBanner {
+        min-height: 60vh;
+    }
+    #testimonial .test-para::before {
+        bottom: -72%;
+    }
+    textarea.form-control {
+        margin: 17px 0;
+    }
+}
+
+// =====================1199px=====================
+@media (max-width: 1199px) {
+    #heroBanner .banner-left .banner-text h2 {
+        font-size: 29px;
+    }
+    #testimonial .test-para::before {
+        display: none;
+    }
+    #header {
+        .navbar {
+            .mx-3 {
+                margin-left: 0 !important;
+            }
+        }
+    }
+}
+
+// =====================991px=====================
+@media(max-width: 991px) {
+    #heroBanner {
+        text-align: center;
+        min-height: 110vh;
+    }
+    #heroBanner .banner-left .banner-text h2::before {
+        left: 38%;
+    }
+    #socialMedia {
+        .social-media-text {
+            text-align: center;
+        }
+    }
+}
+
+// =====================575px=====================
+@media(max-width: 575px) {
+    #tabSection p {
+        font-size: 13px;
+    }
+}
+
+// =====================480px=====================
+@media(max-width: 480px) {
+    #heroBanner {
+        .card.text-center.mx-auto.shadow-lg {
+            width: 300px !important;
+        }
+    }
+    #heroBanner .card .card-header h2 {
+        font-size: 18px;
+    }
+    #tabSection .me-3 {
+        margin-right: 25px !important;
+    }
+    #tabSection .mb-5 {
+        margin-bottom: 1rem !important;
+    }
+    #footer .fab,
+    #footer .fas {
+        padding: 5px;
+        font-size: 22px;
+    }
+}
+
+// =====================391px=====================
+@media(max-width: 391px) {
+    #heroBanner .banner-left .banner-text h2 {
+        font-size: 25px;
+    }
+    #heroBanner .banner-left .banner-text h2::before {
+        left: 32%;
+    }
+    #heroBanner {
+        min-height: 115vh;
+    }
+}
+
+// =====================360px=====================
+@media(max-width: 360px) {
+    #testimonial .test-para p {
+        font-size: 12px;
+    }
+    #testimonial .testimonial-heading h3 {
+        font-size: 24px;
+    }
+    #tabSection h5 {
+        font-size: 15px;
+    }
+    #tabSection p {
+        font-size: 12px;
+    }
+}
+
+// media query apply end
